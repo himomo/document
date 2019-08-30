@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>分页</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="page_container">
+        <div class="page_name">
+            分页
+        </div>
+        <div class="page_header page_table">
+            <div class="page_info_id page_info">
+                id
+            </div>
+            <div class="page_info_arrange_1 page_info">
+                开始
+            </div>
+            <div class="page_info_arrange_2 page_info">
+                中间
+            </div>
+            <div class="page_info_arrange_3 page_info">
+                结束
+            </div>
+        </div>
+        <div class="middle_page_content" id="middle_page_content">
+            <!-- <div class="middle_arrange">
+                <div class="page_info_arrange_0 page_info_content">
+                    id
+                </div>
+                <div class="page_info_arrange_1 page_info_content">
+                    开始
+                </div>
+                <div class="page_info_arrange_2 page_info_content">
+                    中间
+                </div>
+                <div class="page_info_arrange_3 page_info_content">
+                    结束
+                </div>
+            </div> -->
+        </div>
+        <div class="page_bottom">
+            <div class="page_icon" id="page_start" value="第一页">
+                <svg class="icon" aria-details="true">
+                    <use xlink:href="#icon-diyiye"></use>
+                </svg>
+            </div>
+            <div class="page_icon" id="page_up" value="上一页">
+                <svg class="icon" aria-details="true">
+                    <use xlink:href="#icon-shangyiye"></use>
+                </svg>
+            </div>
+            <div class="page_number">
+                <span class="page_change_num page" id="active_page">1</span>
+                <span>/</span>
+                <span class="page_sum_num page" id="sum_page">22</span>
+            </div>
+            <div class="page_icon" id="page_down" value="下一页">
+                <svg class="icon" aria-details="true">
+                    <use xlink:href="#icon-xiayiye"></use>
+                </svg>
+            </div>
+            <div class="page_icon" id="page_end" value="最后一页">
+                <svg class="icon" aria-details="true">
+                    <use xlink:href="#icon-zuihouyiye"></use>
+                </svg>
+            </div>
+            <div class="page_input">
+                <input class="input" value=""/>
+            </div>
+            <div class="page_change">
+                跳转
+            </div>
+            <div class="page_select_num">
+                <select class="page_select">
+                    <option value="10" selected="selected">10条/页</option>
+                    <option value="20">20条/页</option>
+                    <option value="30">30条/页</option>
+                    <option value="40">40条/页</option>
+                    <option value="50">50条/页</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="../js/demo.js"></script>
+    <script src="../js/iconfont.js"></script>
+</body>
+</html>
