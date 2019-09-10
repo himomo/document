@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/* 卡片式表格的头部样式 */
+
+.card_table_container {
+    position: relative;
+    width: 1120px;
+    height: 500px;
+    margin-left: 100px;
+    background: #ffffff;
+    box-shadow: 0px 10px 10px #999999;
+}
+
+.card_table {
+    position: relative;
+    height: 32px;
+    color: #999999;
+    font-size: 12px;
+    line-height: 32px;  
+    display: flex;
+}
+
+.card_table_header {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 44px;
+    border-top: 1px solid #E9ECEF; 
+    border-bottom: 1px solid #E9ECEF; 
+}
+
+.card_table_th {
+    position: relative;
+    width: 1080px;
+    margin-left: 20px;
+}
+
+.table_tr {
+    position: relative;
+    text-align: center;
+}
+
+.card_table_tr:hover {
+    border: 1px solid #1DC5F0;
+    box-shadow: 0px 0px 5px #1DC5F0;
+}
+
+.card_table_tr:first-child {
+    margin-top: 5px;
+}
+
+.table_tr:last-child, .table_tr:first-child {
+    width: 50px;
+}
+
+.table_tr:nth-child(2) {
+    width: 100px;
+}
+
+.table_tr:nth-child(3) {
+    width: 200px;
+}
+
+.table_tr:nth-child(4) {
+    width: 230px;
+}
+
+.table_tr:nth-child(5), .table_tr:nth-child(6), .table_tr:nth-child(7) {
+    width: 150px;
+}
+
+.card_table_header .right_line {
+    position: absolute;
+    right: 0px;
+    top: 3px;
+    height: 24px;
+    border: 1px solid #E9ECEF;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow-y: auto;
+}
+
+.card_table_tr_td {
+    position: relative;
+    width: 100%;
+}
+
+.card_table_tr {
+    position: relative;
+    width: 1080px;
+    height: 52px;
+    line-height: 52px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid #E9ECEF;
+    box-shadow: 0px 0px 5px rgba(56,69,90,0.4);
+}
+
+.active {
+    border: 1px solid #1DC5F0;
+    box-shadow: 0px 0px 5px #1DC5F0;
+}
+
+.card_table_tr .right_line {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+    border: 1px solid #E9ECEF;
+}
+
+.table_tr .icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    color: #1188DD;
+}
+
+.left_container .icon  {
+    width: 18px;
+    height: 18px;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    color: #FFFFFF;
+}
+
+.more {
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    color: #1188DD;
+    font-size: 14px;
+    text-align: center;
+}
